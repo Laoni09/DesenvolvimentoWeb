@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site, meooo</title>
+</head>
+<body>
+    <h1>Cadastro de aluno</h1>
+    <p>Informações do aluno</p>
+    <p>Nome: <input type="text" id="Nome" name="Nome"></p> 
+    <p>Idade: <input type="number" id="Idade" name="Idade"></p> 
+    <p><input type="button" value="Confirmar" onclick="ler_idade()"></p> 
+    <script>
+        var nome = document.querySelector('input#Nome')
+        var idade = document.querySelector('input#Idade')
+        nome.innerHTML = `Nome do aluno: ${nome}`
+        idade.innerHTML = `Idade do aluno: ${idade}`
+    </script>
+</body>
+</html>
