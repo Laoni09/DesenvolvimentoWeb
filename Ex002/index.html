@@ -7,16 +7,57 @@
     <title>Site, meooo</title>
 </head>
 <body>
-    <h1>Cadastro de aluno</h1>
-    <p>Informações do aluno</p>
-    <p>Nome: <input type="text" id="Nome" name="Nome"></p> 
-    <p>Idade: <input type="number" id="Idade" name="Idade"></p> 
-    <p><input type="button" value="Confirmar" onclick="ler_idade()"></p> 
-    <script>
-        var nome = document.querySelector('input#Nome')
-        var idade = document.querySelector('input#Idade')
-        nome.innerHTML = `Nome do aluno: ${nome}`
-        idade.innerHTML = `Idade do aluno: ${idade}`
-    </script>
+    <h1>Tipos de Listas</h1>
+    
+    <h2>Lista Ordenada</h2>
+    <ul style="list-style-type: circle";> <!--os style podem ser: disc, circle, square, none-->
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Leite</li>
+    </ul>
+    
+    <h2>Lista Não Ordenada</h2>
+    <ol type="A", start="3"> <!--os type podem ser: A, I, 1, i, a
+                                 start define em qual número a lista vai ser começar a ser ordenada-->
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Leite</li>
+    </ol>
+    
+    <h2>Lista de Descrição</h2> <!--serve para descrever itens-->
+    <dl type="1">
+        <dt>Café</dt>
+        <dd>- Bebida preta quente -</dd>
+        <dt>Leite</dt>
+        <dd>- Bebida branca gelada -</dd>
+    </dl>
+
+    <h1>Links HTML</h1>
+    <ul style="list-style-type: disc;">
+        <li><a href="https://www.w3schools.com/" target="_blank">Visite a w3schools para mais tutoriais</a> <!--abre o doc na msm janela-->
+        <li><a href="https://www.w3schools.com/" target="_self">Visite a w3schools para mais tutoriais</a> <!--abre o doc em nova janela--> 
+        <li><a href="https://www.w3schools.com/" target="_parent">Visite a w3schools para mais tutoriais</a> <!--abre o doc no quadro pai--> 
+        <li><a href="https://www.w3schools.com/" target="_top">Visite a w3schools para mais tutoriais</a> <!--abre o doc em td o corpo da janela--> 
+    </ul>
+
+    <h1>Tipos de URLs</h1>
+    <p>URLs Absolutas: são externas e não podem ser modificadas no código</p>
+    <p>URLs Relativas: são internas e podem ser modificadas no código CSS</p>
+
+    <nav>
+        <h1>Menu Principal</h1>
+        <ul style="list-style-type: disc;">
+            <li>Home</li>
+            <li>Especificações</li>
+            <li>Fotos</li>
+            <li>Multimídia</li>
+            <ul>
+                <li>Musica</li>
+                <li>Vídeos</li>
+            </ul>
+            <li>Fale Conosco</li>
+        </ul>
+        </ul>
+    </nav>
 </body>
 </html>
