@@ -4,38 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página 2</title>
 </head>
 <body>
-    <table border="1">
+    <table border="1" style="width:400px;">
         <tr>
-          <th colspan="2">Name</th> <!--fazer uma célula se estender por várias colunas-->
-          <th>Age</th>              <!--o número representa o número de colunas a serem estendidas-->
+            <th colspan="2">Estados</th>
+            <th>Cidades</th>
         </tr>
         <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>43</td>
+            <th rowspan="4">Sudeste</th>
+            <td >São Paulo</td>
+            <td><ul>
+              <li>São Paulo</li>
+              <li>Guarulhos</li>
+              <li>Campinas</li>
+            </ul>
         </tr>
         <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>57</td>
+          <td >Rio de Janeiro</td>
+          <td><ol type="1">
+            <li>Rio de Janeiro</li>
+            <li>São Gonçalo</li>
+            <li>Duque de Caxias</li>
+          </ol>
         </tr>
-      </table>
-    
-    <table border="1">
-      <tr>
-        <th>Name</th>
-        <td>Jill</td>
-      </tr>
-      <tr>
-        <th rowspan="2">Phone</th><!--fazer uma célula se estender por várias linhas-->
-        <td>555-1234</td>         <!--o valor representa o número de linhas a serem estendidas-->
-      </tr>
-      <tr>
-        <td>555-8745</td>
-    </tr>
+        <tr>
+          <td >Minas Gerais</td>
+          <td><ul style="list-style-type:circle;">
+            <li>Belo Horizonte</li>
+            <li>Uberlbandia</li>
+            <li>Contagem</li>
+          </ul>
+        </tr>
+        <tr>
+          <td >Espirito Santo</td>
+          <td><ol type="I">
+            <li>Vila Velha</li>
+            <li>Serra</li>
+            <li>Cariacica</li>
+          </ol>
+        </tr>
+        
+        <tr>
+            <th rowspan="3">Sul</th>
+            <td >Rio Grande do Sul</td>
+            <td><ol type="a">
+              <li>Porto Alegre</li>
+              <li>Caxias do Sul</li>
+              <li>Pelotas</li>
+            </ol>
+        </tr>
+        <tr>
+          <td >Paraná</td>
+          <td><ul>
+            <li>Curitiba</li>
+            <li>Londrina</li>
+            <li>Maringa</li>
+          </ul>
+        </tr>
+        <tr>
+          <td >Santa Catarina</td>
+          <td><ol>
+            <li>Joinville</li>
+            <li>Florianópolis</li>
+            <li>Blumenau</li>
+          </ol>
+        </tr>
     </table>
 </body>
 </html>
