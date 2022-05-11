@@ -1,0 +1,14 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.city{
+    font-style: italic;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+

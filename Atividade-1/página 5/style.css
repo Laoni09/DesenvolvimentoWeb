@@ -1,0 +1,30 @@
+.azul{
+    color:#0645AD;
+    font-weight: bold;
+    vertical-align: text-top;
+}
+
+.subtit{
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    }
+
+.tit{
+    font-weight: bold;
+    font-size: 3;
+    text-align: center;
+}
+
+table{
+    width: 400px;
+    border: 5px solid grey;
+    border-style: double;
+    font-family: Arial;
+    font-size: 2;
+}
+
+p{
+    margin: 0;
+}
