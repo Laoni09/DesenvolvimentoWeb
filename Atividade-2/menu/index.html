@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu de Nav</title>
+    <link rel="stylesheet" href="menu.css"/>
+    <style>
+        #meucabecalho {
+            background-color: plum;
+            color: black;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+
+    <script language="javascript" src="javascrip/aula.js"></script>
+    <script language="javascript" src="javascrip/funcoes.js"></script>
+</head>
+<body>
+    
+    <h1 id="meucabecalho">meu cabeçalho</h1>
+
+    <nav id="menu"> <!--menu de navegação/um elemento com id único-->
+        
+        <h1>Menu Principal</h1>
+
+        <ul type="disc"> <!--links internos-->
+            <li> <a href="index.html">home</a></li> <!--link local-->
+            <li> <a href="especs.html">especificações</a></li>
+            <li> <a href="fotos.html">fotos</a></li>
+            <li> <a href="multimidia.html">multimídia</a> </li>
+            <li> <a href="fale-conosc.html">fale conosco</a></li>
+        <ul>
+    </nav>
+
+        <h1 id="myheader">minhas cidades</h1>
+        <!--varios elementos com a mesma classe-->
+        <h2 class = "city">londres</h2>
+        <p>londres - inglaterra</p>
+        <h2 class = "city">paris</h2>
+        <p>paris - frança</p>
+        <h2 class = "city">tóquio</h2>
+        <p>tóquio - japão</p>
+
+        <!--style do id myheader e de todos os elementos class city-->
+        <style> 
+            #myheader {
+                background-color: lightgreen;
+                color: black;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .city {
+                background-color: lightgray;
+                color: black;
+                padding: 10px;
+            }
+        </style>
+
+        <p><a href="#C1">jump to chapter 1</a></p> <!--usando id em link-->
+        <p><a href="#C2">jump to chapter 2</a></p>
+        <p><a href="#C3">jump to chapter 3</a></p>
+        <p><a href="#C4">jump to chapter 4</a></p>
+        <p><a href="#C5">jump to chapter 5</a></p> 
+
+        <h2 id="C1" >chapter 1</h2>
+        <p>this chapter is about ...</p>
+        <h2 id="C2">chapter 2</h2>
+        <p>this chapter is about ...</p>
+        <h2 id="C3">chapter 3</h2>
+        <p>this chapter is about ...</p>
+        <h2 id="C4">chapter 4</h2> <!--vinculando id-->
+        <p>this chapter is about ...</p>
+        <h2 id="C5">chapter 5</h2>
+        <p>this chapter is about ...</p>
+
+        <h1 id="myheader2">oi mundo</h1>
+        <button onclick="displayResult ()"> alterar texto</button>
+
+        <script>
+            function displayResult () {
+                document.getElementById ("myheader2"). innerHTML="bom dia!";
+            }
+        </script>
+</body>
+</html>
