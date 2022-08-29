@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(227, 255, 227);
+}
+section.superior {
+    text-align: center;
+}
+ul, li {
+    list-style: none;
+    display: inline-block;
+}
