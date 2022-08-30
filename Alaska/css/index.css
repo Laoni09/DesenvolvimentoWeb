@@ -1,10 +1,12 @@
-body {
-    background-color: rgb(227, 255, 227);
-}
+
 section.superior {
     text-align: center;
 }
-ul, li {
+section.superior ul, section.superior li{
     list-style: none;
     display: inline-block;
+}
+section.inferior table, section.inferior td {
+    border: 1px solid;
+    background-color: green;
 }
