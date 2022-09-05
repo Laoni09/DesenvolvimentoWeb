@@ -1,8 +1,12 @@
+section.superior header img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+}
 section.superior header {
-    max-width: 200px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
+    background-color: black;
+    opacity: 0.3;
 }
 section.inferior td {
     border: 1px solid;
