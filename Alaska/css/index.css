@@ -1,4 +1,4 @@
-.logo img {
+.cabecalho img {
     margin-left: auto;
     margin-right: auto;
     max-width: 100px;
@@ -24,10 +24,83 @@
     opacity: 0.5;
     z-index: 1;
 }
-.menu ul li {
+.menu1 {
+    margin: 0;
+    padding: 0;
+    margin-top: -77px;
+    width: auto;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+}
+.menu1 ul {
+    list-style: none;
+}
+.menu1 li{
+    display: inline;
+    float: left;
+    padding:0px;
+    margin: 0;
+    border-left: #666666 thin solid;
+}
+.menu1 li ul{
+    display: none;
+    padding: 0;
+    margin: 0;
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style:none;
-    border:1px solid #c0c0c0;
-    top: 25px;
+    left: 0;
+}
+.menu1 a{
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background-color: #CCCCCC;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu1 :hover{
+    background-color: #EEEEEE;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.menu2 {
+    margin: 0;
+    padding: 0;
+    margin-top: -77px;
+    width: auto;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+}
+.menu2 ul {
+    list-style: none;
+}
+.menu2 li{
+    display: inline;
+    float: right;
+    padding:0px;
+    margin: 0;
+    border-left: #666666 thin solid;
+}
+.menu2 li ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+}
+.menu2 a{
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background-color: #CCCCCC;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu2 :hover{
+    background-color: #EEEEEE;
+    text-decoration: none;
+    color: #FFFFFF;
 }
